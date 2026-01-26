@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "signal.md",
+                "file": "Api.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "signal"
+              "title": "Api"
             }
           }
         ]
@@ -186,7 +186,11 @@
   },
   "active": "6e02ed1353d9e78a",
   "lastOpenFiles": [
-    "Angular.md",
-    "signal.md"
+    "back.md",
+    "DB.md",
+    "Api.md",
+    "signal.md",
+    "Server.md",
+    "Web Angular, JAVA.md"
   ]
 }
