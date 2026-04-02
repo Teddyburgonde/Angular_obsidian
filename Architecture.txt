@@ -1,0 +1,26 @@
+A revoir  cycle de vie du composant.
+
+Architecture:
+
+Components 
+Modules (NgModule) → Optionnel depuis angular 17+  
+Services → logique métier partagée, injectables
+Directives → modifient le comportement du DOM
+Pipes → transforment l'affichage des données
+Routing → navigation entre vues
+
+
+Components: 
+C'est un bloc d'interface réutilisable avec sa logique, son html et son style.
+IL est composer de 4 fichiers:
+html -> html
+scss -> css
+ts -> La logique du composant
+spec -> Pour les tests unitaires
+
+Service:
+IL y a toujours @Injectable() pour que la ou les fonctions puissent etre appeler dans un component.
+Un service peut appeler un autre service grace a inject(nom du service).
+
+
+
