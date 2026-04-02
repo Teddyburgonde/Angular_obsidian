@@ -9,6 +9,11 @@ Directives → modifient le comportement du DOM
 Pipes → transforment l'affichage des données
 Routing → navigation entre vues
 
+Fonctionnalité: 
+- RxJS
+- Signals
+- HTTP Client
+- Formulaires
 
 Components: 
 C'est un bloc d'interface réutilisable avec sa logique, son html et son style.
@@ -24,5 +29,27 @@ Un service peut appeler un autre service grace a inject(nom du service).
 Un service expose une fonction et le component appel la fonction.
 
 Directives: 
-
-
+Ils permetttent de modifier le comportement ou l'apparence d'un élément html.
+Les directives s'utilisent uniquement dans les templates HTML.
+Les 3 principales:
+	@if -> Affiche un élément si une condition est vraie
+		@if(condition){
+			...
+		}
+	@for -> répete un élement pour chaque item d'un tableau
+		@for (item of items; track item){
+			...
+		}
+	
+	@switch -> Affiche un élément selon une valeur
+		@switch (variable) {
+  			@case ('valeur1') {
+    			  <p>cas 1</p>
+  			}
+  			@case ('valeur2') {
+    		 	 <p>cas 2</p>
+  			}
+  			@default {
+    		  	 <p>cas par défaut</p>
+  			}
+		}
