@@ -21,6 +21,8 @@ spec -> Pour les tests unitaires
 Service:
 IL y a toujours @Injectable() pour que la ou les fonctions puissent etre appeler dans un component.
 Un service peut appeler un autre service grace a inject(nom du service).
+Un service expose une fonction et le component appel la fonction.
 
+Directives: 
 
 
