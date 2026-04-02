@@ -2,12 +2,11 @@ A revoir  cycle de vie du composant.
 
 Architecture:
 
-Components 
-Modules (NgModule) → Optionnel depuis angular 17+  
-Services → logique métier partagée, injectables
-Directives → modifient le comportement du DOM
-Pipes → transforment l'affichage des données
-Routing → navigation entre vues
+Components ✅
+Services ✅
+Directive ✅
+Pipes ✅
+Routing ❌
 
 Fonctionnalité: 
 - RxJS
@@ -53,3 +52,18 @@ Les 3 principales:
     		  	 <p>cas par défaut</p>
   			}
 		}
+		
+Pipes: 
+Transforme l'affichage d'une donnée dans le HTML sans modifier la donnée elle-même.
+{{ mavariable | nomDuPipe }} 
+Les pipes les plus courants: 
+uppercase → met en majuscules
+lowercase → met en minuscules
+date → formate une date
+currency → formate un nombre en monnaie
+json → affiche un objet en JSON
+
+
+Routing: 
+
+
