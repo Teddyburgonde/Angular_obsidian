@@ -1,0 +1,12 @@
+Les endpoints: 
+- Un endpoint c'est la porte d'entrée du back. 
+On doit passer par lui pour avoir accées aux données du back.
+- Il est composé de 3 parties:
+	. Une url
+	. Une version qui indique la version de Api
+	. Un Path 
+
+Les endpoints sont defini coté back dans les fichiers controllers.
+Le principal role du controller c'est exposé les endpoints.
+
+-------------------
