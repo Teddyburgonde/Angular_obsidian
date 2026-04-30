@@ -10,3 +10,7 @@ Les endpoints sont defini coté back dans les fichiers controllers.
 Le principal role du controller c'est exposé les endpoints.
 
 -------------------
+API: 
+
+Une api c'est ensemble des endpoints qui sont defini dans les fichiers controllers.
+-------------------
